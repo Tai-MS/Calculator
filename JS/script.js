@@ -42,14 +42,14 @@ function themes() {
   //   }
   // });
   toggle.addEventListener("click", () => {
-    if (css.href == "./CSS/style.css") {
-      css.href = "./CSS/theme2.css";
+    if (css.href == "CSS/style.css") {
+      css.href = "CSS/theme2.css";
       console.log(css);
-    } else if (css.href == "./CSS/theme2.css") {
-      css.href = "./CSS/theme3.css";
+    } else if (css.href == "CSS/theme2.css") {
+      css.href = "CSS/theme3.css";
       console.log(css.href);
-    } else if (css.href == "./CSS/theme3.css") {
-      css.href = "./CSS/style.css";
+    } else if (css.href == "CSS/theme3.css") {
+      css.href = "CSS/style.css";
       console.log(css.href);
     }
   });
