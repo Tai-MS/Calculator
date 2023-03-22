@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(268, 75%, 9%);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    color: hsl(52, 100%, 62%);
+}
+
+/**********************************/
+/*UP*/
+/**********************************/
+#up{
+    display: flex;
+    width: 28rem;
+    height: 5rem;
+    margin-top: 10rem;
+    margin-bottom: -2rem;
+}
+
+#left{
+    float: left;
+}
+
+#right{
+    margin-left: 12.5rem;
+    margin-top: -0.5rem;
+}
+
+#right p{
+    font-size: 0.8rem;
+}
+
+#changeBack{
+    float: right;
+    margin-left: 5rem;
+    margin-bottom: -1.5rem;
+}
+
+#changeBack p{
+    letter-spacing: 0.7rem;
+    margin-left: 18px;
+    margin-bottom: 4px;
+}
+
+#button-back{
+    background-color: hsl(268, 71%, 12%);
+    border-radius: 20px;
+    width: 7rem;
+    height: 2rem;
+}
+
+button{
+    margin-left: 77px;
+    margin-top: 0.5rem;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    border: none;
+    background-color: hsl(176, 100%, 44%);
+}
+
+button:hover{
+    filter: brightness(1.75);
+    cursor: pointer;
+}
+/**********************************/
+/*DISPLAY*/
+/**********************************/
+#display{
+    background-color: hsl(268, 71%, 12%);
+    width: 28rem;
+    height: 7rem;
+    border-radius: 15px;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.show{
+    float: right;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: hsl(52, 100%, 62%);
+}
+
+/**********************************/
+/*KEYBOARD*/
+/**********************************/
+#keyboard{
+    display: grid;
+    grid-template-columns: repeat(4, 6.3rem);
+    grid-template-rows: repeat(5, 3.8rem);
+    justify-content: center;
+    justify-items: center;  
+    align-content: center; 
+    align-items: center;
+    width: 28rem;
+    height: 22rem;
+    background-color: hsl(268, 71%, 12%);
+    border-radius: 15px;
+}
+
+.button{
+    width: 5.5rem;
+    height: 3rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+    background-color: hsl(268, 47%, 21%);
+    color: hsl(52, 100%, 62%);
+    box-shadow: 0px 4px 4px hsl(290, 70%, 36%);
+}
+
+.button:hover, .color:hover, #equal:hover{
+    filter: brightness(1.75);
+    cursor: pointer;
+}
+
+.larger{
+    margin-left: 6.3rem;
+    width: 11.5rem;
+    color: hsl(52, 100%, 62%);
+}
+
+.color{
+    background-color: hsl(281, 89%, 26%);
+    color: hsl(52, 100%, 62%);
+    box-shadow: 0px 4px 4px hsl(285, 91%, 52%);
+}
+
+#equal{
+    margin-left: 18.8rem;
+    background-color: hsl(176, 100%, 44%);
+    color: black;
+    box-shadow: 0px 4px 4px hsl(177, 92%, 70%);
+}
+
+
+
+
+
+

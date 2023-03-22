@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(0, 0%, 90%);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    color: black;
+}
+
+/**********************************/
+/*UP*/
+/**********************************/
+#up{
+    display: flex;
+    width: 28rem;
+    height: 5rem;
+    margin-top: 10rem;
+    margin-bottom: -2rem;
+}
+
+#left{
+    float: left;
+}
+
+#right{
+    margin-left: 12.5rem;
+    margin-top: -0.5rem;
+}
+
+#right p{
+    font-size: 0.8rem;
+}
+
+#changeBack{
+    float: right;
+    margin-left: 5rem;
+    margin-bottom: -1.5rem;
+}
+
+#changeBack p{
+    letter-spacing: 0.7rem;
+    margin-left: 18px;
+    margin-bottom: 4px;
+}
+
+#button-back{
+    background-color: hsl(0, 5%, 81%);
+    border-radius: 20px;
+    width: 7rem;
+    height: 2rem;
+}
+
+button{
+    margin-left: 47px;
+    margin-top: 0.5rem;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    border: none;
+    background-color: hsl(6, 63%, 50%);
+}
+
+button:hover{
+    filter: brightness(1.75);
+    cursor: pointer;
+}
+/**********************************/
+/*DISPLAY*/
+/**********************************/
+#display{
+    background-color: hsl(0, 0%, 93%);
+    width: 28rem;
+    height: 7rem;
+    border-radius: 15px;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.show{
+    float: right;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: black;
+}
+
+/**********************************/
+/*KEYBOARD*/
+/**********************************/
+#keyboard{
+    display: grid;
+    grid-template-columns: repeat(4, 6.3rem);
+    grid-template-rows: repeat(5, 3.8rem);
+    justify-content: center;
+    justify-items: center;  
+    align-content: center; 
+    align-items: center;
+    width: 28rem;
+    height: 22rem;
+    background-color: hsl(0, 5%, 81%);
+    border-radius: 15px;
+}
+
+.button{
+    width: 5.5rem;
+    height: 3rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+    background-color: hsl(30, 25%, 89%);
+    box-shadow: 0px 4px 4px hsl(28, 16%, 65%);
+}
+
+.button:hover, .color:hover, #equal:hover{
+    filter: brightness(1.75);
+    cursor: pointer;
+}
+
+.larger{
+    margin-left: 6.3rem;
+    width: 11.5rem;
+    color: white;
+}
+
+.color{
+    background-color: hsl(185, 42%, 37%);
+    color: white;
+    box-shadow: 0px 4px 4px hsl(185, 58%, 25%);
+}
+
+#equal{
+    margin-left: 18.8rem;
+    background-color: hsl(6, 63%, 50%);
+    box-shadow: 0px 4px 4px hsl(6, 70%, 34%);
+}
+
+
+
+
+
+
