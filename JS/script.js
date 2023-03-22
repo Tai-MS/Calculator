@@ -29,26 +29,17 @@ function themes() {
   toggle = document.getElementById("toggle");
   let css = document.getElementById("css");
   console.log(css);
-  // toggle.addEventListener("click", () => {
-  //   if (css.href == "http://127.0.0.1:5500/CSS/style.css") {
-  //     css.href = "/CSS/theme2.css";
-  //     console.log(css);
-  //   } else if (css.href == "http://127.0.0.1:5500/CSS/theme2.css") {
-  //     css.href = "/CSS/theme3.css";
-  //     console.log(css.href);
-  //   } else if (css.href == "http://127.0.0.1:5500/CSS/theme3.css") {
-  //     css.href = "/CSS/style.css";
-  //     console.log(css.href);
-  //   }
-  // });
   toggle.addEventListener("click", () => {
-    if (css.href == "CSS/style.css") {
+    
+    if (css.href == "https://tai-ms.github.io/Calculator/CSS/style.css") {
+      console.log("CSS")
       css.href = "CSS/theme2.css";
       console.log(css);
-    } else if (css.href == "CSS/theme2.css") {
+    } else if (css.href === "https://tai-ms.github.io/Calculator/CSS/theme2.css") {
+      console.log("CSS2")
       css.href = "CSS/theme3.css";
       console.log(css.href);
-    } else if (css.href == "CSS/theme3.css") {
+    } else if (css.href === "https://tai-ms.github.io/Calculator/CSS/theme3.css") {
       css.href = "CSS/style.css";
       console.log(css.href);
     }
